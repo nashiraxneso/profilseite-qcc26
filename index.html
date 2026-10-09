@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Infos über Nora</title>
+        <meta name="author"content= "Nora">
+        <link rel= "stylesheet" href="stil.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <header>
+            <h1>Noras Welt</h1>
+            <h2>Herzlich wilkommen in meinem Leben!</h2>
+        </header>
+        <main>
+            <button id="DarkModeToggle">⏾</button>
+            <section id="Personenbeschreibung">
+                <div>
+                    <h1>Infos über diese Person:</h1>
+                    <p> Hallo, ich heisse Nora, vielleicht auch bekannt als Neso oder Nashira. Ich freue mich das du hier bist und mich etwas genauer kennenlernen möchtest! Ich bin eine eher stille Person und bisschen introvertiert. Ansonsten würde ich von mir sagen, dass ich kreativ und neugierig bin. Und halt einfach ich. Zurzeit besuche ich das Gymnasium Thun, mit Schwerpunktfach PaM. Das nimmt momentan den grössten Teil meiner Zeit ein. Damit bin ich nächsten Sommer jedoch fertig und will dann ein Naturwissenschaftliches Studium anfagen.</p>
+                </div>
+                <div>
+                    <img src="pica.jpeg" alt="Bleistiftskizze im Comic-Stil eines sitzenden Vogels mit Glubschaugen."/>
+                </div>
+            </section>
+
+            <section id="Bilder">
+                <img id="Bild1" src="Bildsection Bild 1.png" alt="Bild aus einem 3D Spiel, zeigt eine Reiterin auf einem Pferd, vor einer orange-pinken Energie-Barriere">
+                <img id="Bild2" src="Bildsection Bild 2.jpg" alt="Bild mit der Mondoberfläche im Vordergrund und der Erdsichel im Hintergrund">
+                <img id="Bild3" src="Bildsection Bild 3.png" alt="Bild eines lächelnden Kleinkindes">
+                <img id="Bild4" src="Bildsection Bild 4.png" alt="Bild von blau-gelben Himmel, hinter Bergen und Häusern">
+            </section>
+
+            <section id="Interessen">
+                <section>
+                    <h4>Interessen und Stuff</h4>
+                    <p>Ich finde sehr spannend alles mögliche zu erschaffen und Probleme zu lösen, meine Hobbys sind...</p>
+                </section>
+                <section id="Bildergalerie">
+                    <img class="Bild" src="Bildsection Bild 1.png" alt="">
+                    <img class="Bild" src="Bildsection Bild 2.jpg" alt="">
+                    <img class="Bild" src="Bildsection Bild 3.png" alt="">
+                    <img class="Bild" src="Bildsection Bild 4.png" alt="">
+                </section> 
+            </section>
+
+            <section id="Links">
+                <div>
+                    <h4>Damit Tschüss! Es sei denn du hast noch nicht genug von mir, findest du hier noch mehr:</h4>
+                </div>
+
+                <div>
+                    <img src="MailIcon.png" alt="PixelArt Symbol, blauer Briefumschlag"/>
+                    <p><a href="mailto:nora@aendel.ch">nora@aendel.ch</a></p>
+                </div>
+
+                <div>
+                    <img src="DiscordIcon.png" alt="Discord Logo"/>
+                    <p>@nashirastars</p>
+                </div>
+
+                <div>
+                    <img src="YoutubeIcon.png" alt="Youtube Logo">
+                    <p><a href="https://www.youtube.com/@nashirastars">@nashirastars</a></p>
+                </div>
+
+                <div>
+                    <img src="InstagramIcon.png" alt="Instragram Logo">
+                    <p><a href="https://www.instagram.com/nesoxzerin/">@nesoxzerin</a></p>
+                </div>
+            </section> 
+        </main>
+        <footer>
+            <p>PS: bla bla</p>
+        </footer>
+    </body>
+
+    
+
+    <script>
+        const word = "Hello";
+        const number = 3;
+        console.log(`${word} is said ${number} times.`);
+
+        const texte = ["Text 1", "Text 2", "Text 3"];
+        const randomText = texte[Math.floor(Math.random()*texte.length)];
+        console.log(`${randomText}`);
+        
+
+        const darkModeToggle = document.getElementById("DarkModeToggle");
+        darkModeToggle.addEventListener("click", () => {
+            document.body.classList.toggle("dark");
+        });
+
+
+    </script>
+</html>
